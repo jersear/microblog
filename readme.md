@@ -10,6 +10,18 @@ create:
 activate:
 `$ source venv/bin/activate`
 
+Some git stuff:
+from in venv?
+`$ git init` - initalize folder as git repo
+`$ git add -A` - add all files
+Push local code to github (new repo):
+Create a new repo with github webinterface (no license, readme, etc)
+
+HTTPS:(can do with ssh too)
+`git remote add origin https://github.com/jersear/microblog.git`
+`git push -u origin master`
+
+
 ## install flask
 `pip install flask`
 
